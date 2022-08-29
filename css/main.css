@@ -2,7 +2,12 @@
 // css variables
 // ==================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 :root {
+  --color-main: #fff;
+  --color-second: #000;
+  --font-main: 'Roboto', sans-serif;
 }
 
 /* ====================================
@@ -17,15 +22,19 @@
 
 html {
   font-size: 16px;
+  background-color: var(--color-second);
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
+  width: 414px;
+  margin: auto;
+  background-color: var(--color-main);
   font-size: 1rem;
   line-height: 1.5rem;
+  font-family: var(--font-main);
 }
 
 a {
@@ -42,3 +51,35 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+header {
+  padding: 20px 7px;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 191px;
+  margin-bottom: 53px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header h1 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.archi-data-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.archi-data-list .br {
+  padding: 2px 0 12px;
+}
