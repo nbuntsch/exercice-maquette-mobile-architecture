@@ -7,6 +7,9 @@
 
 /* ====================================
 // reset rules
+font-family: .AppleSystemUIFont;
+font-size: 12px;
+color: #000000;
 // ==================================== */
 
 * {
@@ -17,6 +20,9 @@
 
 html {
   font-size: 16px;
+  max-width: 414px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+  margin: auto;
 }
 
 body {
@@ -24,8 +30,52 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #000000;
   font-size: 1rem;
   line-height: 1.5rem;
+  
+}
+
+/* HEADER*/
+
+.header-nav-container li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 53px;
+}
+
+.header-title h1 {
+padding-bottom: 10px;
+}
+
+.link-floorplan {
+  text-decoration: underline solid black 1px;
+}
+
+/* MAIN*/
+
+ul {
+  font-size: 14px;
+}
+
+div, ul {
+  padding: 7px;
+  list-style: none;
+}
+
+.main-text {
+  padding: 54px 7px 54px ;
+  text-overflow: ellipsis;  overflow: hidden;
+  max-width: 300px;}
+
+/* FOOTER*/
+
+footer {
+  background-color: #000000;
+  color: white;
 }
 
 a {
