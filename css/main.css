@@ -3,7 +3,8 @@
 // ==================================== */
 
 :root {
-  --main-color
+  --main-color: black;
+  --secondary-color: white;
 }
 
 /* ====================================
@@ -28,9 +29,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 1rem;
   line-height: 1.5rem;
+  color: var(--main-color);
+  background-color: var(--secondary-color);
 }
 
 a {
