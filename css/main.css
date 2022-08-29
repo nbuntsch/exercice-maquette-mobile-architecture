@@ -1,5 +1,6 @@
 /* ====================================
 // css variables
+
 // ==================================== */
 
 :root {
@@ -44,5 +45,52 @@ video {
 // ==================================== */
 
 html {
-  
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+
+body {
+  max-width: 414px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  margin: 20px 0 53px 7px;
+}
+
+nav a {
+  margin: 0 16px 0 0;
+  text-decoration: none;
+  font-family: Roboto-Regular;
+}
+
+p {
+  margin: 7px;
+}
+
+h1 {
+  font-family: Roboto-Regular;
+  font-size: 30px;
+  letter-spacing: 0;
+  margin: 7px;
+}
+
+header {
+  margin-bottom: 47px;
+}
+
+.bold {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.infos p {
+  font-size: 12px;
 }
