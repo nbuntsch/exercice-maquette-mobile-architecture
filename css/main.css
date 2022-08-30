@@ -84,3 +84,7 @@ header h1 {
   padding: 2px 0 12px;
 }
 
+section p,
+section a {
+  margin: 0 7px;
+}
