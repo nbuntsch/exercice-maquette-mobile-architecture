@@ -54,6 +54,7 @@ video {
 
 header {
   padding: 20px 7px;
+  margin-bottom: 51px;
 }
 
 header nav ul {
@@ -74,17 +75,29 @@ header h1 {
   margin-bottom: 10px;
 }
 
+.data.list {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
 .archi-data-list {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  margin: 0 0 12px;
 }
 
-.archi-data-list .br {
-  padding: 2px 0 12px;
+.data-list a {
+  margin: 0 7px 12px;
+  display: inline-block;
 }
 
 section p,
 section a {
   margin: 0 7px;
+}
+
+.caption {
+  margin: 54px 77px 56px 7px;
+  line-height: 26px;
 }
