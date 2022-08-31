@@ -101,3 +101,30 @@ section a {
   margin: 54px 77px 56px 7px;
   line-height: 26px;
 }
+
+.return-button {
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  margin: 24px 0;
+}
+
+footer {
+  background-color: var(--color-second);
+  padding: 30px 7px;
+  color: var(--color-main);
+}
+
+footer h2,
+footer p {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+footer span {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+  font-size: 10px;
+  line-height: 11px;
+}
