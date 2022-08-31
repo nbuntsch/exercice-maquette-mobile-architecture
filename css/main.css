@@ -23,6 +23,7 @@ html {
   max-width: 414px;
   box-shadow: 0 0 20px rgb(0 0 0 / 30%);
   margin: auto;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -35,7 +36,6 @@ body {
   color: #000000;
   font-size: 1rem;
   line-height: 1.5rem;
-  
 }
 
 /* HEADER*/
@@ -53,6 +53,10 @@ padding-bottom: 10px;
 
 .link-floorplan {
   text-decoration: underline solid black 1px;
+}
+
+.header-title a{
+ font-weight: bold;
 }
 
 /* MAIN*/
@@ -87,6 +91,20 @@ footer {
 
 a {
   color: inherit;
+}
+
+h2 {
+ font-size: 12px;
+}
+
+.modules {
+ font-size: 12px;
+ line-height: 14px;
+}
+
+.modules-floorplan {
+text-decoration: underline;
+font-size: 12px;
 }
 
 img,
