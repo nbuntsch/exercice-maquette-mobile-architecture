@@ -73,7 +73,8 @@ div, ul {
 }
 
 .projects-button {
-  margin: 50px;
+  margin: 28px;
+  text-align: center;
 }
 
 /* FOOTER*/
@@ -81,6 +82,7 @@ div, ul {
 footer {
   background-color: #000000;
   color: white;
+  padding: 30px 7px 38px ;
 }
 
 a {
