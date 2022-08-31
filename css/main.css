@@ -88,6 +88,10 @@ header h1 {
   display: inline-block;
 }
 
+.text {
+  padding: 54px 77px 56px 7px;
+}
+
 a {
   color: inherit;
 }
