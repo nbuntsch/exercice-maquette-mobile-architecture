@@ -1,8 +1,20 @@
+/*  fonts ↓
+
+font-family: 'Roboto', sans-serif;
+
+
+*/
+
 /* ====================================
 // css variables
 // ==================================== */
 
 :root {
+  --main-color: #000;
+  --secondary-color: #fff;
+  --main-background-color: #fff;
+  --secondary-background-color: #000;
+  --main-font: 'Roboto', sans-serif ;
 }
 
 /* ====================================
@@ -17,13 +29,14 @@
 
 html {
   font-size: 16px;
+  max-width: 320px;
+  margin: auto;
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
   font-size: 1rem;
   line-height: 1.5rem;
 }
@@ -37,8 +50,15 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  display: block;
 }
 
 /* ====================================
 // base rules
 // ==================================== */
+
+/* header ↓ */
+
+/* main ↓ */
+
+/* footer ↓ */
