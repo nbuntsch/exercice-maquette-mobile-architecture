@@ -54,7 +54,7 @@ video {
 
 header {
   padding: 20px 7px;
-  margin-bottom: 51px;
+  margin-bottom: 28px;
 }
 
 header nav ul {
@@ -75,7 +75,8 @@ header h1 {
   margin-bottom: 10px;
 }
 
-.data.list {
+.data-list p,
+.data-list strong {
   font-size: 12px;
   line-height: 1.2;
 }
@@ -89,6 +90,7 @@ header h1 {
 
 .data-list a {
   margin: 0 7px 12px;
+  font-size: 12px;
   display: inline-block;
 }
 
