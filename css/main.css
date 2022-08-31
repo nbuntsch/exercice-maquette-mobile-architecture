@@ -20,6 +20,8 @@ html {
 }
 
 body {
+  max-width: 413px;
+  margin: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -29,6 +31,7 @@ body {
 }
 
 a {
+  font-family: 'Roboto', sans-serif;
   color: inherit;
 }
 
@@ -42,3 +45,69 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+header div a {
+  padding-left: 5px;
+  font-size: 10px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif
+}
+header div {
+  padding-left: 5px;
+  padding-top: 20px;
+}
+h1 {
+  padding-top: 92px;
+  padding-left: 7px;
+  font-size: 20px;
+  font-weight: 300px;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 18px;
+}
+h2 {
+  padding-bottom: 46px;
+  padding-left: 7px;
+  font-size: 11px;
+  font-family: 'Roboto', sans-serif
+}
+h3 {
+  padding-left: 7px;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif
+}
+article div {
+  padding-bottom: 7px;
+  margin-top: 10px;
+  padding-left: 7px;
+  margin-top: -10px;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif
+}
+ article a {
+  padding-left: 7px;
+  font-size: 8px;
+ }
+
+ p {
+  margin-top: 62px;
+  margin-bottom: 62px;
+  padding-left: 7px;
+  padding-right: 80px;
+   font-size:11px;
+  font-family: 'Roboto', sans-serif
+ }
+
+.back-button {
+  padding-top: 28px;
+  padding-bottom: 16px;
+  padding-left: 130px;
+  font-size: 8px;
+  font-family: 'Roboto', sans-serif
+ }
+
+ footer {
+   padding-top: 16px;
+   background-color: black;
+   color: white;
+   padding-bottom: 38px;
+ }
