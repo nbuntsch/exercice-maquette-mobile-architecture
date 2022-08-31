@@ -3,6 +3,7 @@
 // ==================================== */
 
 :root {
+  initial-letter-align: sa;
 }
 
 /* ====================================
@@ -17,6 +18,10 @@
 
 html {
   font-size: 16px;
+  max-width: 320px;
+  display: block;
+  scroll-behavior: smooth;
+  margin: auto;
 }
 
 body {
@@ -42,3 +47,32 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+body {
+  padding: 20px 7px;
+}
+
+header {
+  font-family: Roboto-Regular;
+}
+
+nav {
+  display:flex;
+  justify-content: space-between;
+  color: #000000;
+  margin-right: 120px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  padding-top: 55px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+header p {
+  padding-top: 10px;
+}
