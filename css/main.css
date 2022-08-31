@@ -69,7 +69,12 @@ div, ul {
 .main-text {
   padding: 54px 7px 54px ;
   text-overflow: ellipsis;  overflow: hidden;
-  max-width: 300px;}
+  max-width: 300px;
+}
+
+.projects-button {
+  margin: 50px;
+}
 
 /* FOOTER*/
 
