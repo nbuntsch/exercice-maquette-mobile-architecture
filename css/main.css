@@ -68,18 +68,15 @@ nav {
 nav a {
   margin: 0 16px 0 0;
   text-decoration: none;
-  font-family: Roboto-Regular;
 }
 
-p {
+p, h1, a {
   margin: 7px;
 }
 
 h1 {
-  font-family: Roboto-Regular;
   font-size: 30px;
   letter-spacing: 0;
-  margin: 7px;
 }
 
 header {
@@ -89,8 +86,48 @@ header {
 .bold {
   font-size: 12px;
   font-weight: 700;
+  margin-top: 15px;
 }
 
 .infos p {
   font-size: 12px;
+  line-height: 0.5rem;
+}
+
+.infos a {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.text {
+  margin: 55px 77px 55px 7px;
+}
+
+.projects {
+  display: block;
+  margin: 28px 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  padding: 28px 0;
+  font-size: 12px;
+}
+
+.link {
+  font-size: 10px;
+  line-height: 0.7rem;
+}
+
+.footer {
+  line-height: 0.9rem; 
+  margin-bottom: 22px;
+}
+
+.place {
+  font-weight: 400;
 }
