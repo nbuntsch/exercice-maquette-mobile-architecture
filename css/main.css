@@ -3,6 +3,8 @@
 // ==================================== */
 
 :root {
+  --main-color: black;
+  --secondary-color: white;
 }
 
 /* ====================================
@@ -20,12 +22,19 @@ html {
 }
 
 body {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.264);
+  margin: auto;
+  width: 414px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 
+  font-family: "Roboto";
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
+  color: var(--main-color);
+  background-color: var(--secondary-color);
 }
 
 a {
@@ -42,3 +51,92 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+.padding {
+  padding: 0px 7px;
+}
+
+a {
+  display: inline-block;
+  padding-top: 20px;
+  padding-right: 17px;
+  text-decoration: none;
+}
+
+.project-title {
+  padding-top: 53px;
+  font-size: 30px;
+}
+
+.project-title h1 {
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 18px;
+}
+
+.project-title p {
+  font-size: 16px;
+  padding-bottom: 42px;
+}
+
+.appartement-info-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.appartement-info {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 16px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.plan {
+  padding: 0px 0px 25px 0px;
+  text-decoration: underline;
+}
+
+.paragraph {
+  padding: 54px 0px;
+  margin-right: 77px;
+}
+
+.back-link {
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 12px;
+  padding: 30px 0px 30px 0px;
+}
+
+footer {
+  color: var(--secondary-color);
+  background-color: var(--main-color);
+}
+
+.contact-info {
+  padding: 30px 0px 22px 0px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.sources {
+  padding-bottom: 38px;
+  font-size: 10px;
+  line-height: 11px;
+}
+
+.sources a {
+  padding: 0px;
+}
