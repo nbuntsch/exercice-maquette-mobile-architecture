@@ -119,3 +119,24 @@ footer {
   color: var(--secondary-color);
   background-color: var(--main-color);
 }
+
+.contact-info {
+  padding: 30px 0px 22px 0px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.sources {
+  padding-bottom: 38px;
+  font-size: 10px;
+  line-height: 11px;
+}
+
+.sources a {
+  padding: 0px;
+}
