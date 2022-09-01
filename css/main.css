@@ -42,3 +42,30 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  margin: 20px 77px 47px 7px;
+}
+
+nav {
+  margin-bottom: 53px;
+}
+
+.about {
+  margin: 0 16px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
