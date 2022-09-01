@@ -61,3 +61,8 @@ header nav {
 .project div {
   width: 330px;
 }
+
+.otherprojects {
+  display: flex;
+  justify-content: center;
+}
