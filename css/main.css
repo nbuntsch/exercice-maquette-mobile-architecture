@@ -2,7 +2,7 @@
 // css variables
 // ==================================== */
 
-:root {
+/*:root {
 }
 
 /* ====================================
@@ -42,3 +42,25 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  width: 414px;
+  margin: auto;
+}
+
+/* nav */
+
+nav {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 7px;
+  margin-bottom: 53px;
+}
+
+a {
+  margin-right: 18px;
+}
