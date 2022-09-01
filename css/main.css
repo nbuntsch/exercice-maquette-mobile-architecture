@@ -47,6 +47,11 @@ header nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: 10px 0px;
+}
+
+.description {
+  margin: 25px 0px;
 }
 
 .technical-recources p {
