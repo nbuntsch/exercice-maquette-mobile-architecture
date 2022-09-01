@@ -57,3 +57,7 @@ header nav {
 .technical-recources p {
   margin: 10px 0px;
 }
+
+.project div {
+  width: 330px;
+}
