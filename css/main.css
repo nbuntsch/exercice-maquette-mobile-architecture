@@ -42,3 +42,9 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
