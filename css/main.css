@@ -2,16 +2,10 @@
 // css variables
 // ==================================== */
 
-:root {
-}
 
 /* ====================================
 // reset rules
 // ==================================== */
-
-html {
-  max-width: 320px;
-}
 
 * {
   box-sizing: border-box;
@@ -46,3 +40,41 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+font-family: Roboto-Regular;
+max-width: 320px;
+margin: auto;
+}
+
+header {
+  margin-left: 7px;
+  margin-right: 77px;
+  margin-bottom: 47px;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 8px;
+  margin-right: 8px;
+}
+
+nav {
+  margin-bottom: 53px;
+  margin-top: 20px;
+}
+
+h1 {
+font-size: 30px;
+margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.information {
+  font-size: 12px;
+  line-height: 1.4;
+}
