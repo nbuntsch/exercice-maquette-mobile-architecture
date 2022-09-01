@@ -78,10 +78,14 @@ header a {
   text-decoration: none;
 }
 
-main div {
+main div, 
+footer p {
   font-size: 12px;
-  padding: 50px 0 10px 0;
   line-height: 1rem;
+}
+
+main div {
+  padding: 50px 0 10px 0;
 }
 
 main div a, a {
@@ -102,4 +106,32 @@ br {
   display: flex;
   justify-content: center;
   padding: 30px 0 15px;
+}
+
+footer {
+  background-color: #000000;
+  line-height: 0.5rem;
+  padding: 30px 0 30px 7px;
+}
+
+footer p,
+footer a{
+ color: #FFFFFF
+}
+
+.sources {
+  font-size: 10px;
+}
+
+.sources-title {
+  padding-top: 20px;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+}
+
+footer a {
+  text-decoration: none;
 }
