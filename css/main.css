@@ -48,3 +48,7 @@ header nav {
   flex-direction: row;
   justify-content: space-around;
 }
+
+.technical-recources p {
+  margin: 10px 0px;
+}
