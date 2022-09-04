@@ -5,22 +5,28 @@
     <title>Meisner</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="">Projet</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
+        <a href="#projet">Projet</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
     <main>
-      <h1>Meisner</h1>
-      <h2>North Kawartha, Ontario, Canada | 1616 sqft</h2>
+      <div class="titre">
+        <h1 id="projet">Meisner</h1>
+        <h2>North Kawartha, Ontario, Canada | 1616 sqft</h2>
+      </div>
       <div class="list-info">
-        <p>modules</p>
+        <p>Modules</p>
         <span>6,5</span>
         <p>Structural Engineering</p>
         <span>Blackwell</span>
@@ -28,7 +34,7 @@
         <span>Revelateur Studio</span>
       </div>
       <a href="" class="plan">View Floorplan</a>
-      <figure>
+      <figure id="about">
         <img src="./images/salon-face.jpg" alt="" />
         <figcaption>
           Replacing a three season cottage that has been in the family for
@@ -46,8 +52,19 @@
         </figcaption>
         <img src="./images/table.jpg" alt="" />
       </figure>
-      <a href="" class="projects"> Back to projects</a>
+      <a href="#projet" class="projects"> Back to projects</a>
     </main>
-    <footer></footer>
+    <footer>
+      <p id="contact">
+        A architectes <br />
+        Ontario, Canada
+      </p>
+      <a
+        href="
+      https://mafcohouse.com"
+        >Sources <br />
+        https://mafcohouse.com</a
+      >
+    </footer>
   </body>
 </html>
