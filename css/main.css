@@ -42,3 +42,84 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  margin: auto;
+  max-width: 320px;
+}
+
+body {
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+nav {
+  font-size: 16px;
+  margin: 20px 0 53px 9px;
+}
+
+article, p, a {
+  margin-left: 9px;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 400;;
+  margin: 0 0 10px 9px;
+}
+
+.adress {
+  font-size: 14px;
+  margin-bottom: 51px;
+}
+
+.infos {
+  line-height: 1.2;
+}
+
+h2 {
+  font-weight: 700;
+  margin: 10px 0 0 9px;
+}
+
+.floorplan {
+  font-size: 12px;
+  margin: 15px 0;
+}
+
+.explications {
+  margin: 60px 70px 60px 9px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.2;
+  padding-bottom: 30px;
+}
+
+.back-to-projects {
+  margin: 20px 0;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.architect {
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+.sources, .mafco {
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.sources {
+  margin: 20px 0 0 9px;
+}
