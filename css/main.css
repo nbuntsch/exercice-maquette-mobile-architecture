@@ -39,6 +39,10 @@ video {
   vertical-align: text-top;
 }
 
+header {
+ margin: 18px 77px 47px 7px;
+}
+
 nav {
   font-family:'Roboto', sans-serif;
   font-size: 16px;
