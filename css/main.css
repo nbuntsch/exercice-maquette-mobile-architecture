@@ -28,8 +28,82 @@ body {
   line-height: 1.5rem;
 }
 
+header {
+  padding: 0px 0px 47px 9px;
+}
+
+header nav a{
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  padding: 20px 210px 53px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header p {
+  font-family: 'Roboto', sans-serif;;
+  font-size: 16px;
+}
+
+
+header h1 {
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.modules {
+  padding-bottom: 15px;
+  line-height: 1.2;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.struct-engineering {
+  padding-bottom: 15px;
+  line-height: 1.2;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.photography {
+  padding-bottom: 15px;
+  line-height: 1.2;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.details {
+  margin-left: 9px;
+}
+
+.details a {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.text {
+  padding: 54px 77px 56px 7px;
+  font-family: 'Roboto', sans-serif;
+}
+
 a {
   color: inherit;
+}
+
+.return-button {
+  padding-top: 28px;
+  padding-bottom: 28px;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
 }
 
 img,
@@ -38,6 +112,27 @@ video {
   block-size: auto;
   vertical-align: text-top;
 }
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 30px 0px 38px 7px;
+}
+
+footer p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.sources {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  line-height: 1.2;
+  padding-top: 22px;
+}
+
+
 
 /* ====================================
 // base rules
