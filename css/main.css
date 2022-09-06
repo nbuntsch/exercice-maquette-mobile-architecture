@@ -82,8 +82,17 @@ main {
   font-size: 12px;
 }
 
-.information a {
+a {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
   text-decoration: underline;
+}
+
+article p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 54px 77px 56px 0;
 }
 
 
