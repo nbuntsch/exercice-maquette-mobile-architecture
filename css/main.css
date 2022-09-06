@@ -30,6 +30,7 @@ body {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 img,
@@ -38,6 +39,76 @@ video {
   block-size: auto;
   vertical-align: text-top;
 }
+
+header {
+  margin: 18px 77px 47px 7px;
+}
+
+header h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  letter-spacing: 0;
+}
+
+header h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #000000;
+}
+
+nav {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+nav a {
+  margin-right: 10px;
+}
+
+.title-description h1 {
+  margin: 55px 0 10px 0;
+}
+
+.title-description h2 {
+  margin-bottom: 47px;
+}
+
+main {
+  margin-left: 7px;
+}
+
+.information {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.special-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+article p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 54px 77px 56px 0;
+}
+
+footer {
+  background-color:#000000;
+  color: white;
+  padding: 30px 135px 30px 7px;
+}
+
+footer, h4, p {
+  font-family: "Roboto", sans-serif;
+}
+
+footer .links {
+  margin-top: 22px;
+}
+
 
 /* ====================================
 // base rules
