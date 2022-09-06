@@ -82,7 +82,7 @@ main {
   font-size: 12px;
 }
 
-a {
+.special-link {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   text-decoration: underline;
@@ -95,6 +95,19 @@ article p {
   margin: 54px 77px 56px 0;
 }
 
+footer {
+  background-color:#000000;
+  color: white;
+  padding: 30px 135px 30px 7px;
+}
+
+footer, h4, p {
+  font-family: "Roboto", sans-serif;
+}
+
+footer .links {
+  margin-top: 22px;
+}
 
 
 /* ====================================
