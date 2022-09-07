@@ -44,7 +44,7 @@ video {
 // ==================================== */
 
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -69,3 +69,12 @@ h1 {
   font-weight: 400;
 }
 
+.description {
+  margin: 0 284px 10px 9px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+h2 {
+  font-size: 12px;
+}
