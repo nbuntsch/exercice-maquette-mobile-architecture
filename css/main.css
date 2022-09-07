@@ -42,3 +42,73 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  padding: 20px 77px 47px 7px;
+}
+
+nav {
+  margin-bottom: 53px;
+}
+
+.about {
+  margin: 0 16px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.description {
+  padding: 0 284px 10px 9px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.description p {
+  margin: 0;
+}
+
+main {
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 12px;
+}
+
+img {
+  margin-bottom: 54px;
+}
+
+main p {
+  margin: 0 77px 56px 9px;
+}
+
+.link-projects {
+  margin: 0 163px 0 164px;
+  font-size: 12px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  padding: 30px 291px 38px 7px;
+  line-height: 14px;
+}
+
+.address {
+  margin-bottom: 22px;
+  font-size: 12px;
+}
