@@ -2,7 +2,6 @@
 // css variables
 // ==================================== */
 
-
 /* ====================================
 // reset rules
 // ==================================== */
@@ -42,9 +41,10 @@ video {
 // ==================================== */
 
 html {
-font-family: Roboto-Regular;
-max-width: 320px;
-margin: auto;
+  font-family: Roboto-Regular;
+  max-width: 414px;
+  margin: auto;
+  border: 1px solid black;
 }
 
 header {
@@ -53,9 +53,12 @@ header {
   margin-bottom: 47px;
 }
 
+.location {
+  margin-left: 0;
+}
+
 nav a {
   text-decoration: none;
-  margin-right: 8px;
   margin-right: 8px;
 }
 
@@ -65,8 +68,14 @@ nav {
 }
 
 h1 {
-font-size: 30px;
-margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+h2,
+p {
+  margin-left: 7px;
 }
 
 h2 {
@@ -78,3 +87,12 @@ h2 {
   font-size: 12px;
   line-height: 1.4;
 }
+
+img {
+  margin-bottom: 54px;
+}
+/* 
+p {
+  line-height: 26px;
+  margin-left: 7px;
+} */
