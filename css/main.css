@@ -57,6 +57,7 @@ header {
 
 header a {
   text-decoration: none;
+  margin: 0 16px 0 0;
 }
 
 nav {
