@@ -55,8 +55,30 @@ header {
   margin: 20px 8px 47px;
 }
 
+header a {
+  text-decoration: none;
+}
+
 nav {
   margin: 0 0 50px;
+}
+
+main p,
+dl {
+  margin: 0 8px;
+}
+
+main p {
+  margin: 0 77px 55px 8px;
+}
+
+main a {
+  width: 200px;
+  margin: 0 auto;
+}
+
+img {
+  margin-bottom: 55px;
 }
 
 h1 {
@@ -71,6 +93,16 @@ h2 {
   font-weight: 400;
 }
 
-a {
-  text-decoration: none;
+dl {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.last-picture {
+  margin-bottom: 28px;
+}
+
+.back-to-projects {
+  display: flex;
+  justify-content: center;
 }
