@@ -78,3 +78,16 @@ h1 {
 h2 {
   font-size: 12px;
 }
+
+img {
+  margin-bottom: 54px;
+}
+
+main p {
+  margin: 0 77px 56px 9px;
+}
+
+main a {
+  margin: 0 163px 16px 164px;
+  font-size: 12px;
+}
