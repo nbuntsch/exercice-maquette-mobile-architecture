@@ -64,3 +64,33 @@ nav {
 a {
   margin-right: 18px;
 }
+
+/* intro */
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  margin-bottom: 47px;
+}
+
+/* index */
+
+.index {
+  font-size: 12px;
+}
+
+h2 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.index p {
+  margin-bottom: 5px;
+}
+
+.index a {
+  text-decoration: underline;
+}
