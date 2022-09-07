@@ -71,12 +71,23 @@ main {
 
 /* header ↓ */
 
+header {
+  padding: 0 7px;
+}
+
 nav {
   margin: 0 0 53px;
 }
 
 nav a {
   text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 191px;
 }
 
 .title {
@@ -90,32 +101,28 @@ h1 {
   margin: 0 0 10px 0;
 }
 
-h2 {
-  font-size: 16px;
-  font-weight: normal;
-}
-
 /* main ↓ */
 
-.informations {
+.data {
+  margin-bottom: 20px;
   font-size: 12px;
-  margin: 0 0 24px;
 }
 
-.informations h3 {
-  font-size: 12px;
-  font-weight: bold;
+.data-list {
+  line-height: 1.2;
+  margin: 12px 0;
 }
 
-.informations h4 {
-  font-weight: normal;
+section p,
+section a {
+  margin: 0 7px;
 }
 
-article p {
-  margin: 55px 0;
+.content {
+  padding: 55px 0;
 }
 
-.project-link {
+.return-link {
   display: flex;
   justify-content: center;
   margin: 29px 0;
