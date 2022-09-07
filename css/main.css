@@ -94,3 +94,15 @@ h2 {
 .index a {
   text-decoration: underline;
 }
+
+/* content */
+
+.content p {
+  margin: 54px 77px 56px 7px;
+}
+
+.back {
+  text-decoration: underline;
+  text-align: center;
+  padding: 28px;
+}
