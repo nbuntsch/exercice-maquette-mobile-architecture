@@ -117,6 +117,12 @@ h2 {
 footer {
   background: black;
   color: white;
+  padding-top: 30px;
+  padding-bottom: 38px;
+}
+
+footer .index {
+  margin-bottom: 0px;
 }
 
 .link a {
@@ -128,4 +134,3 @@ footer {
   height: 5px;
   font-size: 10px;
 }
-
