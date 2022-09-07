@@ -42,3 +42,93 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+header {
+  margin: 20px 8px 47px;
+}
+
+header a {
+  text-decoration: none;
+  margin: 0 16px 0 0;
+}
+
+nav {
+  margin: 0 0 50px;
+}
+
+main p,
+dl {
+  margin: 0 8px;
+}
+
+main p {
+  margin: 0 77px 55px 8px;
+}
+
+main a {
+  width: 200px;
+  margin: 0 auto 16px;
+  font-size: 12px;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 30px 8px 38px;
+}
+
+footer p {
+  font-size: 10px;
+  line-height: 11px;
+}
+
+footer dl {
+  margin: 0 0 22px;
+}
+
+img {
+  margin-bottom: 55px;
+}
+
+h1 {
+  font-size: 30px;
+  letter-spacing: 0;
+  margin: 0 0 10px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+dl {
+  font-size: 12px;
+  margin-bottom: 10px;
+  line-height: 14px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 14px;
+}
+
+.last-picture {
+  margin-bottom: 28px;
+}
+
+.back-to-projects {
+  display: flex;
+  justify-content: center;
+}
