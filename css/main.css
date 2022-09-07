@@ -50,12 +50,12 @@ video {
 
 body {
   padding: 20px 7px;
-  font-family: Roboto-Regular;
+  font-family: "Roboto", sans-serif;
   color: #000000;
 }
 
 nav {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   margin-right: 220px;
 }
@@ -78,7 +78,7 @@ header a {
   text-decoration: none;
 }
 
-main div, 
+main div,
 footer p {
   font-size: 12px;
   line-height: 1rem;
@@ -88,7 +88,8 @@ main div {
   padding: 50px 0 10px 0;
 }
 
-main div a, a {
+main div a,
+a {
   text-decoration: underline;
 }
 
@@ -115,8 +116,8 @@ footer {
 }
 
 footer p,
-footer a{
- color: #FFFFFF
+footer a {
+  color: #ffffff;
 }
 
 .sources {
