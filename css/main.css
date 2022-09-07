@@ -46,20 +46,85 @@ video {
 // ==================================== */
 
 html {
-  width: 320px;
-  margin: 8px;
-
+  width: 414px;
 }
 
-nav,a {
+header{
+  margin-left: 8px;
+}
+
+header nav {
+  padding: 26px 0 56px;
+}
+
+header a {
   font-size: 16px;
   text-decoration: none;
   font-family: 'Helvetica', sans-serif ;
-  padding: 22px 0 56px;
 }
 
-nav a {
-  padding-right: 18px;
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  padding-bottom : 20px;
+  font-weight: 400;
 }
 
-font-family: 'Roboto', sans-serif;
+header p {
+  font-family: 'Helvetica', sans-serif ;
+  font-size: 12px;
+  line-height: 1.5;
+  padding-bottom: 7px;
+}
+
+
+header h2 {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 47px;
+}
+
+.floorplan {
+  font-family: 'Helvetica', sans-serif ;
+  font-size: 12px;
+  text-decoration: underline;
+  padding: 0 0 10px 0;
+  display: inline-block;
+} 
+
+main p {
+  font-family: 'Roboto', sans-serif;
+  padding : 60px 85px 60px 8px;
+  font-weight: 400;
+}
+
+main a {
+  font-family: 'Roboto', sans-serif;
+  padding: 28px 0;
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding-left: 8px;
+  padding-bottom: 35px;
+}
+
+footer p {
+  font-family: 'Helvetica', sans-serif ;
+  font-size: 12px;
+  line-height: 1;
+  padding: 28px 0 ;
+}
+
+footer h2, a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 0;
+}
