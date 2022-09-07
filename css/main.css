@@ -2,7 +2,7 @@
 // css variables
 // ==================================== */
 
-:root {
+/*:root {
 }
 
 /* ====================================
@@ -42,3 +42,95 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  width: 414px;
+  margin: auto;
+}
+
+/* nav */
+
+nav {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 7px;
+  margin-bottom: 53px;
+}
+
+a {
+  margin-right: 18px;
+}
+
+/* intro */
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-left: 7px;
+}
+
+.intro p {
+  margin-bottom: 47px;
+  margin-left: 7px;
+}
+
+/* index */
+
+.index {
+  font-size: 12px;
+  margin-left: 7px;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 12px;
+  font-weight: bold;
+  height: 14px;
+}
+
+.index p {
+  margin-bottom: 5px;
+}
+
+.index a {
+  text-decoration: underline;
+}
+
+/* content */
+
+.content p {
+  margin: 54px 77px 56px 7px;
+}
+
+.back {
+  text-decoration: underline;
+  text-align: center;
+  padding: 28px;
+}
+
+/* footer */
+
+footer {
+  background: black;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 38px;
+}
+
+footer .index {
+  margin-bottom: 0px;
+}
+
+.link a {
+  text-decoration: dashed;
+  font-size: 10px;
+}
+
+.link p {
+  height: 5px;
+  font-size: 10px;
+}
