@@ -48,7 +48,7 @@ html {
 }
 
 header {
-  margin: 20px 77px 47px 7px;
+  padding: 20px 77px 47px 7px;
 }
 
 nav {
@@ -70,9 +70,17 @@ h1 {
 }
 
 .description {
-  margin: 0 284px 10px 9px;
+  padding: 0 284px 10px 9px;
   font-size: 12px;
   line-height: 14px;
+}
+
+.description p {
+  margin: 0;
+}
+
+main {
+  margin-bottom: 16px;
 }
 
 h2 {
@@ -87,7 +95,20 @@ main p {
   margin: 0 77px 56px 9px;
 }
 
-main a {
-  margin: 0 163px 16px 164px;
+.link-projects {
+  margin: 0 163px 0 164px;
+  font-size: 12px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  padding: 30px 291px 38px 7px;
+  line-height: 14px;
+}
+
+.address {
+  margin-bottom: 22px;
   font-size: 12px;
 }
