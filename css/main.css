@@ -70,21 +70,26 @@ a {
 h1 {
   font-size: 30px;
   margin-bottom: 10px;
+  margin-left: 7px;
 }
 
 .intro p {
   margin-bottom: 47px;
+  margin-left: 7px;
 }
 
 /* index */
 
 .index {
   font-size: 12px;
+  margin-left: 7px;
+  margin-bottom: 24px;
 }
 
 h2 {
   font-size: 12px;
   font-weight: bold;
+  height: 14px;
 }
 
 .index p {
@@ -106,3 +111,21 @@ h2 {
   text-align: center;
   padding: 28px;
 }
+
+/* footer */
+
+footer {
+  background: black;
+  color: white;
+}
+
+.link a {
+  text-decoration: dashed;
+  font-size: 10px;
+}
+
+.link p {
+  height: 5px;
+  font-size: 10px;
+}
+
