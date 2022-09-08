@@ -46,5 +46,10 @@ video {
 @font-face {
   font-family: "Futura";
   src: url(../_consigne/font/AnyConv.com__FuturaStd-Medium.woff2);
-  font-weight: 600;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Futura";
+  font-weight: 400;
 }
