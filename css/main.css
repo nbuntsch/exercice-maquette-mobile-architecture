@@ -42,3 +42,9 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+@font-face {
+  font-family: "Futura";
+  src: url(../_consigne/font/AnyConv.com__FuturaStd-Medium.woff2);
+  font-weight: 600;
+}
