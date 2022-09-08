@@ -53,3 +53,12 @@ body {
   font-family: "Futura";
   font-weight: 400;
 }
+
+nav a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.title {
+  padding: 55px 0 50px;
+}
