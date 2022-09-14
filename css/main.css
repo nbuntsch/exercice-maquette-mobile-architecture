@@ -106,6 +106,7 @@ strong {
 }
 
 .back-button {
+  font-size: 12px;
   display: block;
   text-align: center;
   padding: 30px 0;
