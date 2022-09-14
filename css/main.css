@@ -73,6 +73,11 @@ dt {
   padding: 0 7px;
 }
 
+.presentation p {
+  padding: 55px 70px 55px 0;
+  line-height: 1.6;
+}
+
 .global-informations {
   font-size: 12px;
   line-height: 1.15;
