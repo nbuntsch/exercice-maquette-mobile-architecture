@@ -52,6 +52,7 @@ video {
 body {
   font-family: "Roboto";
   font-weight: 400;
+  margin: 20px 0 40px;
 }
 
 h1 {
@@ -66,6 +67,10 @@ nav a {
 
 dt {
   font-weight: 700;
+}
+
+.container {
+  padding: 0 7px;
 }
 
 .global-informations {
