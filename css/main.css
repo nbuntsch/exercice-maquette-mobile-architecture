@@ -52,7 +52,13 @@ video {
 body {
   font-family: "Roboto";
   font-weight: 400;
-  margin: 20px 0 40px;
+  padding: 20px 0 0;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding-bottom: 40px;
 }
 
 h1 {
