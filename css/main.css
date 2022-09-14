@@ -91,3 +91,9 @@ dt {
 .title {
   padding: 55px 0 50px;
 }
+
+.back-button {
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+}
