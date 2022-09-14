@@ -28,11 +28,6 @@ body {
   line-height: 1.5rem;
 }
 
-h1 {
-  font-weight: 400;
-  padding-bottom: 10px;
-}
-
 a {
   color: inherit;
 }
@@ -59,9 +54,28 @@ body {
   font-weight: 400;
 }
 
+h1 {
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
 nav a {
   text-decoration: none;
   margin-right: 15px;
+}
+
+dt {
+  font-weight: 700;
+}
+
+.global-informations {
+  font-size: 12px;
+  line-height: 1.15;
+}
+
+.global-informations a {
+  padding: 20px 0;
+  display: block;
 }
 
 .title {
